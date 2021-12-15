@@ -1,0 +1,122 @@
+.container {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #928f8f;
+	color:#ffffff;
+	min-height: 40vh;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #ffffff;
+	float: left;
+	height: 250px;
+	width: 100%;
+}
+.top{
+	background-color: #C03335;
+	float: left;
+	height: 20px;
+	width: 100%;
+}
+.contact {
+	float:right;
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo {
+	color: #000000;
+	float: left;
+	height: 250px;
+	width: 262px;
+	max-height: none;
+	
+}
+.menu {
+	background-color: #C03335;
+	float: left;
+	height: 100px;
+	width: 100%;
+}
+nav { 
+	font-family:Academy Engraved LET Plain;
+	font-size: 2em;
+	text-indent: 2em;
+	margin-top: 30px;
+	margin-left: 7em;
+	display: flex;
+	align-items: center;
+
+}
+nav a {  color: #ffffff; 
+	   text-decoration: none;
+	 }
+
+nav a:hover {	
+		color: black;
+	  }
+body { background-color: #333333;
+       color: #EAEAEA;
+}
+#gallery { position: relative; 
+}
+figure { position: absolute;
+         left: 280px;
+		 text-align: center;
+		 opacity: .25; }
+#gallery ul { width: 300px; 
+              list-style-type: none;
+}
+#gallery li { display: inline; 
+              float: left;
+			  padding: 10px;
+}
+#gallery img { border-style: none; }
+#gallery a { color: #EAEAEA;
+             text-decoration: none; 
+			 font-style: italic;
+}
+#gallery span { position: absolute; 
+                left: -1000px;
+				opacity: 0;
+                transition: opacity 3s ease-in-out; 
+}
+#gallery a:hover span { position: absolute;
+                        top: 16px; 
+						left: 320px;
+                        text-align: center; 
+						opacity: 1;
+}
+#carInfo{
+    float: left;
+    margin-top: 8em;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 10px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    color: rgb(0, 0, 0);
+  }
+  .footer {
+	background-color: #C03335;
+	float: left;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+}
